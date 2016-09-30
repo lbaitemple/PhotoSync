@@ -1,0 +1,19 @@
+//
+//  PhotoSync.pch
+//  PhotoSync
+//
+//  Created by Hong on 9/29/16.
+//  Copyright © 2016 Hong. All rights reserved.
+//
+
+#ifndef PhotoSync_pch
+#define PhotoSync_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#endif /* PhotoSync_pch */

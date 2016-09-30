@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F125ACFF1D9D665900DCD225 /* DAVBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACD61D9D665900DCD225 /* DAVBaseRequest.m */; };
+		F125AD001D9D665900DCD225 /* DAVCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACD81D9D665900DCD225 /* DAVCredentials.m */; };
+		F125AD011D9D665900DCD225 /* DAVListingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACDB1D9D665900DCD225 /* DAVListingParser.m */; };
+		F125AD021D9D665900DCD225 /* DAVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACDE1D9D665900DCD225 /* DAVRequest.m */; };
+		F125AD031D9D665900DCD225 /* DAVRequestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACE01D9D665900DCD225 /* DAVRequestGroup.m */; };
+		F125AD041D9D665900DCD225 /* DAVRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACE21D9D665900DCD225 /* DAVRequests.m */; };
+		F125AD051D9D665900DCD225 /* DAVResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACE41D9D665900DCD225 /* DAVResponseItem.m */; };
+		F125AD061D9D665900DCD225 /* DAVSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACE61D9D665900DCD225 /* DAVSession.m */; };
+		F125AD071D9D665900DCD225 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACE91D9D665900DCD225 /* ISO8601DateFormatter.m */; };
+		F125AD081D9D665900DCD225 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F125ACEA1D9D665900DCD225 /* LICENSE.txt */; };
+		F125AD091D9D665900DCD225 /* NSDateRFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = F125ACED1D9D665900DCD225 /* NSDateRFC1123.m */; };
+		F125AD1F1D9D80C900DCD225 /* AddServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F125AD1E1D9D80C900DCD225 /* AddServerViewController.m */; };
 		F138B5D61D9CFBF60078EFDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F138B5D51D9CFBF60078EFDA /* main.m */; };
 		F138B5D91D9CFBF60078EFDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F138B5D81D9CFBF60078EFDA /* AppDelegate.m */; };
 		F138B5DC1D9CFBF60078EFDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F138B5DB1D9CFBF60078EFDA /* ViewController.m */; };
 		F138B5DF1D9CFBF60078EFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F138B5DD1D9CFBF60078EFDA /* Main.storyboard */; };
 		F138B5E11D9CFBF60078EFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F138B5E01D9CFBF60078EFDA /* Assets.xcassets */; };
 		F138B5E41D9CFBF60078EFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F138B5E21D9CFBF60078EFDA /* LaunchScreen.storyboard */; };
+		F138B5ED1D9D073C0078EFDA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F138B5EC1D9D073C0078EFDA /* AssetsLibrary.framework */; };
+		F138B5EF1D9D07BE0078EFDA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F138B5EE1D9D07BE0078EFDA /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09998A5B70BE46FA2777CF0C /* libPods-PhotoSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoSync.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A683B996C16609655E8918F9 /* Pods-PhotoSync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSync.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoSync/Pods-PhotoSync.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7E082DE5B15C63115D3172 /* Pods-PhotoSync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSync.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoSync/Pods-PhotoSync.release.xcconfig"; sourceTree = "<group>"; };
+		F125ACD51D9D665900DCD225 /* DAVBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVBaseRequest.h; sourceTree = "<group>"; };
+		F125ACD61D9D665900DCD225 /* DAVBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVBaseRequest.m; sourceTree = "<group>"; };
+		F125ACD71D9D665900DCD225 /* DAVCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVCredentials.h; sourceTree = "<group>"; };
+		F125ACD81D9D665900DCD225 /* DAVCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVCredentials.m; sourceTree = "<group>"; };
+		F125ACD91D9D665900DCD225 /* DAVKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVKit.h; sourceTree = "<group>"; };
+		F125ACDA1D9D665900DCD225 /* DAVListingParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVListingParser.h; sourceTree = "<group>"; };
+		F125ACDB1D9D665900DCD225 /* DAVListingParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVListingParser.m; sourceTree = "<group>"; };
+		F125ACDC1D9D665900DCD225 /* DAVRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DAVRequest+Private.h"; sourceTree = "<group>"; };
+		F125ACDD1D9D665900DCD225 /* DAVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRequest.h; sourceTree = "<group>"; };
+		F125ACDE1D9D665900DCD225 /* DAVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRequest.m; sourceTree = "<group>"; };
+		F125ACDF1D9D665900DCD225 /* DAVRequestGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRequestGroup.h; sourceTree = "<group>"; };
+		F125ACE01D9D665900DCD225 /* DAVRequestGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRequestGroup.m; sourceTree = "<group>"; };
+		F125ACE11D9D665900DCD225 /* DAVRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRequests.h; sourceTree = "<group>"; };
+		F125ACE21D9D665900DCD225 /* DAVRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRequests.m; sourceTree = "<group>"; };
+		F125ACE31D9D665900DCD225 /* DAVResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVResponseItem.h; sourceTree = "<group>"; };
+		F125ACE41D9D665900DCD225 /* DAVResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVResponseItem.m; sourceTree = "<group>"; };
+		F125ACE51D9D665900DCD225 /* DAVSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVSession.h; sourceTree = "<group>"; };
+		F125ACE61D9D665900DCD225 /* DAVSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVSession.m; sourceTree = "<group>"; };
+		F125ACE81D9D665900DCD225 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		F125ACE91D9D665900DCD225 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		F125ACEA1D9D665900DCD225 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F125ACEC1D9D665900DCD225 /* NSDateRFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateRFC1123.h; sourceTree = "<group>"; };
+		F125ACED1D9D665900DCD225 /* NSDateRFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateRFC1123.m; sourceTree = "<group>"; };
+		F125AD121D9D672E00DCD225 /* PhotoSync.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSync.pch; sourceTree = "<group>"; };
+		F125AD1D1D9D80C900DCD225 /* AddServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddServerViewController.h; sourceTree = "<group>"; };
+		F125AD1E1D9D80C900DCD225 /* AddServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddServerViewController.m; sourceTree = "<group>"; };
 		F138B5D11D9CFBF60078EFDA /* PhotoSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F138B5D51D9CFBF60078EFDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F138B5D71D9CFBF60078EFDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +69,8 @@
 		F138B5E01D9CFBF60078EFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F138B5E31D9CFBF60078EFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F138B5E51D9CFBF60078EFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F138B5EC1D9D073C0078EFDA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F138B5EE1D9D07BE0078EFDA /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +78,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F138B5EF1D9D07BE0078EFDA /* Photos.framework in Frameworks */,
+				F138B5ED1D9D073C0078EFDA /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B34AD8F3E3C9A8F30129D41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A683B996C16609655E8918F9 /* Pods-PhotoSync.debug.xcconfig */,
+				BC7E082DE5B15C63115D3172 /* Pods-PhotoSync.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F125ACD21D9D665100DCD225 /* ExtFrm */ = {
+			isa = PBXGroup;
+			children = (
+				F125ACD31D9D665900DCD225 /* DAVKit */,
+			);
+			path = ExtFrm;
+			sourceTree = "<group>";
+		};
+		F125ACD31D9D665900DCD225 /* DAVKit */ = {
+			isa = PBXGroup;
+			children = (
+				F125ACD41D9D665900DCD225 /* Core */,
+				F125ACE71D9D665900DCD225 /* ISO8601 */,
+				F125ACEB1D9D665900DCD225 /* RFC1123 */,
+			);
+			path = DAVKit;
+			sourceTree = "<group>";
+		};
+		F125ACD41D9D665900DCD225 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F125ACD51D9D665900DCD225 /* DAVBaseRequest.h */,
+				F125ACD61D9D665900DCD225 /* DAVBaseRequest.m */,
+				F125ACD71D9D665900DCD225 /* DAVCredentials.h */,
+				F125ACD81D9D665900DCD225 /* DAVCredentials.m */,
+				F125ACD91D9D665900DCD225 /* DAVKit.h */,
+				F125ACDA1D9D665900DCD225 /* DAVListingParser.h */,
+				F125ACDB1D9D665900DCD225 /* DAVListingParser.m */,
+				F125ACDC1D9D665900DCD225 /* DAVRequest+Private.h */,
+				F125ACDD1D9D665900DCD225 /* DAVRequest.h */,
+				F125ACDE1D9D665900DCD225 /* DAVRequest.m */,
+				F125ACDF1D9D665900DCD225 /* DAVRequestGroup.h */,
+				F125ACE01D9D665900DCD225 /* DAVRequestGroup.m */,
+				F125ACE11D9D665900DCD225 /* DAVRequests.h */,
+				F125ACE21D9D665900DCD225 /* DAVRequests.m */,
+				F125ACE31D9D665900DCD225 /* DAVResponseItem.h */,
+				F125ACE41D9D665900DCD225 /* DAVResponseItem.m */,
+				F125ACE51D9D665900DCD225 /* DAVSession.h */,
+				F125ACE61D9D665900DCD225 /* DAVSession.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F125ACE71D9D665900DCD225 /* ISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				F125ACE81D9D665900DCD225 /* ISO8601DateFormatter.h */,
+				F125ACE91D9D665900DCD225 /* ISO8601DateFormatter.m */,
+				F125ACEA1D9D665900DCD225 /* LICENSE.txt */,
+			);
+			path = ISO8601;
+			sourceTree = "<group>";
+		};
+		F125ACEB1D9D665900DCD225 /* RFC1123 */ = {
+			isa = PBXGroup;
+			children = (
+				F125ACEC1D9D665900DCD225 /* NSDateRFC1123.h */,
+				F125ACED1D9D665900DCD225 /* NSDateRFC1123.m */,
+			);
+			path = RFC1123;
+			sourceTree = "<group>";
+		};
 		F138B5C81D9CFBF50078EFDA = {
 			isa = PBXGroup;
 			children = (
 				F138B5D31D9CFBF60078EFDA /* PhotoSync */,
 				F138B5D21D9CFBF60078EFDA /* Products */,
+				F138B5EB1D9D073B0078EFDA /* Frameworks */,
+				B34AD8F3E3C9A8F30129D41F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +178,7 @@
 		F138B5D31D9CFBF60078EFDA /* PhotoSync */ = {
 			isa = PBXGroup;
 			children = (
+				F125ACD21D9D665100DCD225 /* ExtFrm */,
 				F138B5D71D9CFBF60078EFDA /* AppDelegate.h */,
 				F138B5D81D9CFBF60078EFDA /* AppDelegate.m */,
 				F138B5DA1D9CFBF60078EFDA /* ViewController.h */,
@@ -67,6 +188,9 @@
 				F138B5E21D9CFBF60078EFDA /* LaunchScreen.storyboard */,
 				F138B5E51D9CFBF60078EFDA /* Info.plist */,
 				F138B5D41D9CFBF60078EFDA /* Supporting Files */,
+				F125AD121D9D672E00DCD225 /* PhotoSync.pch */,
+				F125AD1D1D9D80C900DCD225 /* AddServerViewController.h */,
+				F125AD1E1D9D80C900DCD225 /* AddServerViewController.m */,
 			);
 			path = PhotoSync;
 			sourceTree = "<group>";
@@ -77,6 +201,16 @@
 				F138B5D51D9CFBF60078EFDA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F138B5EB1D9D073B0078EFDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F138B5EE1D9D07BE0078EFDA /* Photos.framework */,
+				F138B5EC1D9D073C0078EFDA /* AssetsLibrary.framework */,
+				09998A5B70BE46FA2777CF0C /* libPods-PhotoSync.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,8 +244,8 @@
 				TargetAttributes = {
 					F138B5D01D9CFBF60078EFDA = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = TT9EA4ZKH3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = GL4HCE4237;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F125AD081D9D665900DCD225 /* LICENSE.txt in Resources */,
 				F138B5E41D9CFBF60078EFDA /* LaunchScreen.storyboard in Resources */,
 				F138B5E11D9CFBF60078EFDA /* Assets.xcassets in Resources */,
 				F138B5DF1D9CFBF60078EFDA /* Main.storyboard in Resources */,
@@ -152,8 +287,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F138B5DC1D9CFBF60078EFDA /* ViewController.m in Sources */,
+				F125AD091D9D665900DCD225 /* NSDateRFC1123.m in Sources */,
+				F125AD071D9D665900DCD225 /* ISO8601DateFormatter.m in Sources */,
+				F125AD1F1D9D80C900DCD225 /* AddServerViewController.m in Sources */,
+				F125AD051D9D665900DCD225 /* DAVResponseItem.m in Sources */,
 				F138B5D91D9CFBF60078EFDA /* AppDelegate.m in Sources */,
+				F125ACFF1D9D665900DCD225 /* DAVBaseRequest.m in Sources */,
+				F125AD041D9D665900DCD225 /* DAVRequests.m in Sources */,
+				F125AD011D9D665900DCD225 /* DAVListingParser.m in Sources */,
+				F125AD001D9D665900DCD225 /* DAVCredentials.m in Sources */,
+				F125AD031D9D665900DCD225 /* DAVRequestGroup.m in Sources */,
+				F125AD021D9D665900DCD225 /* DAVRequest.m in Sources */,
 				F138B5D61D9CFBF60078EFDA /* main.m in Sources */,
+				F125AD061D9D665900DCD225 /* DAVSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,25 +417,53 @@
 		};
 		F138B5E91D9CFBF60078EFDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A683B996C16609655E8918F9 /* Pods-PhotoSync.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TT9EA4ZKH3;
+				DEVELOPMENT_TEAM = GL4HCE4237;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhotoSync",
+				);
+				GCC_PREFIX_HEADER = PhotoSync/PhotoSync.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "debug=1";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PhotoSync/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PODS_ROOT = "${SRCROOT}";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vniapp.PhotoSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f661988a-4180-4732-a4ef-ab30d2d1699e";
+				PROVISIONING_PROFILE_SPECIFIER = jingling_dev_anyapp;
 			};
 			name = Debug;
 		};
 		F138B5EA1D9CFBF60078EFDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7E082DE5B15C63115D3172 /* Pods-PhotoSync.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TT9EA4ZKH3;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PhotoSync",
+				);
+				GCC_PREFIX_HEADER = PhotoSync/PhotoSync.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PhotoSync/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PODS_ROOT = "${SRCROOT}";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vniapp.PhotoSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = jingling_dev_anyapp;
 			};
 			name = Release;
 		};
@@ -312,6 +486,7 @@
 				F138B5EA1D9CFBF60078EFDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
