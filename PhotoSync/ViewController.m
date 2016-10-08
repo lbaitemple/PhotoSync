@@ -229,7 +229,10 @@
     total = videoAssets.count+images.count+audios.count;
     
     NSString *info = [NSString stringWithFormat:@"共读取到 图片%lu张 视频%ld段 音频%ld段",(unsigned long)images.count,videoAssets.count,audios.count];
-    [self updateMessage:nil info:info];
+    
+    NSString *log = [NSString stringWithFormat:@"已成功同步%ld个文件",[self syncedCount]];
+    
+    [self updateMessage:log info:info];
   
 }
 
@@ -384,7 +387,7 @@
             [ViewController getVideoFromPHAsset:asset Complete:^(NSData *fileData, NSString *fileName) {
                 
                 NSString *md5 = [fileName md5];
-                
+
                 if (fileData!=nil && ![self ifUploaded:md5]) {
                     
                     NSString *saved = [NSString stringWithFormat:@"/%@/%@",[self savePath],fileName];
@@ -441,6 +444,14 @@
     NSError *error;  
     NSDictionary *weatherDic = [NSJSONSerialization JSONObjectWithData:fileData options:NSJSONReadingMutableLeaves error:&error];
     return [weatherDic objectForKey:fileKey] != nil;
+}
+
+-(long)syncedCount
+{
+    NSData *fileData = [NSData dataWithContentsOfFile:[self filePath]];
+    if(fileData == nil) return 0;
+    NSDictionary *weatherDic = [NSJSONSerialization JSONObjectWithData:fileData options:NSJSONReadingMutableLeaves error:nil];
+    return [weatherDic allKeys].count;
 }
 
 -(void)setUploaded:(NSString *)fileKey bol:(BOOL)bol
