@@ -142,7 +142,7 @@
                                     <constraint firstItem="TEH-P5-dXZ" firstAttribute="top" secondItem="kdt-dK-zm9" secondAttribute="top" constant="20" id="shz-db-CxL"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="服务器地址  *不要以/结束" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vIc-Y1-ftq">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="服务器地址  *不要以/结束  " placeholder="http://xxx./remote.php/webdav" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vIc-Y1-ftq">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="8wp-nt-YgQ"/>
                                 </constraints>

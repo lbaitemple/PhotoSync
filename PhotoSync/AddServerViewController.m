@@ -24,7 +24,7 @@
     _server.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"SERVER"];
     
     if (_server.text.length == 0) {
-        _server.text = @"http://cloud.vniapp.com/remote.php/webdav";
+        //_server.placeholder = @"http://xxx.xxx.xx/remote.php/webdav";
     }
     
 }
