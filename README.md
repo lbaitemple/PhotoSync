@@ -1,6 +1,6 @@
-## Photo_Sync
+## Photo video sync tools for ios using nextcloud/ownclodu server side
 
-照片同步工具
+
 
 ![main image](https://github.com/monlyu/PhotoSync/blob/master/scrrenshot/main.png?raw=true)
 
